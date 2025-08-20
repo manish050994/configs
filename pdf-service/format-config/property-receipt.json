@@ -3,6 +3,14 @@
   "config": {
     "pageSize": "A4",
     "pageMargins": [18, 15, 18, 15],
+    "background": [
+      {
+        "image": "{{logoImage}}",
+        "width": 300,
+        "opacity": 0.1,
+        "absolutePosition": { "x": 150, "y": 200 }
+      }
+    ],
     "defaultStyle": { "font": "Cambay" },
     "content": [
       {
@@ -15,7 +23,6 @@
       {
         "alignment": "center",
         "stack": [
-          { "image": "{{logoImage}}", "width": 60, "height": 60, "margin": [0, -20, 0, 8] },
           { "text": "{{logo-header}} Nagar Nigam", "style": "header-title" },
           { "text": "Property Tax", "style": "header-subtitle" }
         ],
@@ -123,16 +130,6 @@
             ],
             "columnGap": 4,
             "margin": [0, 2, 0, 2]
-          },
-          {
-            "columns": [
-              { "width": "25%", "text": [{ "text": "Cheque Date : ", "style": "meta-label" }, { "text": "{{chequeDate}}", "style": "meta-value" }] },
-              { "width": "25%", "text": [{ "text": "Cheque Number : ", "style": "meta-label" }, { "text": "{{chequeNumber}}", "style": "meta-value" }] },
-              { "width": "25%", "text": [{ "text": "Cheque Bank Name : ", "style": "meta-label" }, { "text": "{{chequeBankName}}", "style": "meta-value" }] },
-              { "width": "25%", "text": "" }
-            ],
-            "columnGap": 4,
-            "margin": [0, 2, 0, 2]
           }
         ],
         "margin": [0, 10, 0, 6]
@@ -145,7 +142,7 @@
       {
         "text": ["**This receipt is not a proof of ownership"],
         "style": "pt-disclaimer-value",
-        "margin": [0, 3, 0, 3]
+        "margin": [0, 0, 0, 3]
       },
       {
         "columns": [
@@ -164,7 +161,6 @@
       {
         "alignment": "center",
         "stack": [
-          { "image": "{{logoImage}}", "width": 30, "height": 30, "margin": [0, 8, 0, 8] },
           { "text": "{{logo-header}} Nagar Nigam", "style": "office-header-title" }
         ],
         "margin": [0, 0, 0, 6]
