@@ -335,8 +335,6 @@
                     { "variable": "calc_area",             "value": "area",             "type": "string", "defaultValue": "-" },
                     { "variable": "calc_rate",             "value": "factor",           "type": "string", "defaultValue": "-" },
                     { "variable": "calc_alv",              "value": "alv",              "type": "string", "defaultValue": "-" },
-                    { "variable": "calc_maintenance",      "formula": "'10%'",          "type": "string" },
-                    { "variable": "calc_tpv",              "formula": "'static'",       "type": "string" },
                     { "variable": "calc_year",             "value": "year",             "type": "string", "defaultValue": "-" }
                   ]
                 }

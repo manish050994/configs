@@ -53,7 +53,7 @@
         "style": "calcTable",
         "margin": [0, 0, 0, 10],
         "table": {
-          "widths": ["13%", "11%", "7%", "9%", "9%", "10%", "9%", "10%", "10%", "12%"],
+          "widths": ["12%", "15%", "15%", "15%", "10%", "10%", "10%", "13%"],
           "headerRows": 1,
           "keepWithHeaderRows": 1,
           "dontBreakRows": true,
@@ -66,11 +66,9 @@
               { "text": "{{th_area}}", "style": "th" },
               { "text": "{{th_rate}}", "style": "th" },
               { "text": "{{th_alv}}", "style": "th" },
-              { "text": "{{th_maintenance}}", "style": "th" },
-              { "text": "{{th_tpv}}", "style": "th" },
               { "text": "{{th_year}}", "style": "th" }
             ],
-            "{{#calcTableData}}[{\"text\":\"{{calc_usageType}}\",\"style\":\"td\"},{\"text\":\"{{calc_usageFactor}}\",\"style\":\"td\"},{\"text\":\"{{calc_floorNo}}\",\"style\":\"td\"},{\"text\":\"{{calc_constructionType}}\",\"style\":\"td\"},{\"text\":\"{{calc_area}}\",\"style\":\"td\"},{\"text\":\"{{calc_rate}}\",\"style\":\"td\"},{\"text\":\"{{calc_alv}}\",\"style\":\"td\"},{\"text\":\"{{calc_maintenance}}\",\"style\":\"td\"},{\"text\":\"{{calc_tpv}}\",\"style\":\"td\"},{\"text\":\"{{calc_year}}\",\"style\":\"td\"}]{{/calcTableData}}"
+            "{{#calcTableData}}[{\"text\":\"{{calc_usageType}}\",\"style\":\"td\"},{\"text\":\"{{calc_usageFactor}}\",\"style\":\"td\"},{\"text\":\"{{calc_floorNo}}\",\"style\":\"td\"},{\"text\":\"{{calc_constructionType}}\",\"style\":\"td\"},{\"text\":\"{{calc_area}}\",\"style\":\"td\"},{\"text\":\"{{calc_rate}}\",\"style\":\"td\"},{\"text\":\"{{calc_alv}}\",\"style\":\"td\"},{\"text\":\"{{calc_year}}\",\"style\":\"td\"}]{{/calcTableData}}"
           ]
         },
         "layout": {}
