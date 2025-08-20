@@ -21,7 +21,7 @@
       {
         "alignment": "center",
         "stack": [
-          { "text": "{{logo-header}} Nagar Nigam", "style": "header-title" },
+          { "text": "Indore Nagar Nigam", "style": "header-title" },
           { "text": "Property Tax", "style": "header-subtitle" }
         ],
         "margin": [0, 0, 0, 6]
