@@ -3,16 +3,14 @@
   "config": {
     "pageSize": "A4",
     "pageMargins": [18, 15, 18, 15],
-    "background": [
+    "defaultStyle": { "font": "Cambay" },
+    "content": [
       {
         "image": "{{logoImage}}",
         "width": 300,
         "opacity": 0.1,
         "absolutePosition": { "x": 150, "y": 200 }
-      }
-    ],
-    "defaultStyle": { "font": "Cambay" },
-    "content": [
+      },
       {
         "columns": [
           { "text": "Receipt/Acknowledgement", "style": "topline" },
