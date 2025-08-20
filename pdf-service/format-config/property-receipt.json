@@ -159,7 +159,7 @@
       {
         "alignment": "center",
         "stack": [
-          { "text": "{{logo-header}} Nagar Nigam", "style": "office-header-title" }
+          { "text": "Indore Nagar Nigam", "style": "office-header-title" }
         ],
         "margin": [0, 0, 0, 6]
       },
